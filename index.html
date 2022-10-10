@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/01 (4).jpg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="progress_bar">
+
+    </div>
+    <div class="page_loader">
+    <canvas id="canvas"></canvas>
+    <!-- <div class="lds-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> -->
+    </div>
+    <div class="scroll_up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97257.65311448593!2d49.833574399999996!3d40.3800064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1664629036477!5m2!1sru!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <header id="home">
+        <div class="header_main">
+            <div class="bg_shadow">
+                <div class="header_container">
+                    <div class="header_head_container">
+                        <img src="./image/01.png" alt="">
+                        <label for="check_box">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <nav>
+                            <input type="checkbox" id="check_box">
+                            <ul class="nav_list">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header_center_container">
+                    <h2>We are COSMIX</h2>
+                    <h1>Creative Themes</h1>
+                    <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business
+                        agency.
+                        Multiple pages layouts also in this theme with lots of CSS and JQuery animations</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2 class="section_header">ABOUT <span>US</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="section_container">
+                <div class="sentences" data-aos="fade-right">
+                    <h3>We Are Creative And Awesome</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem Ipsum is simply dummy text
+                        of the printing and typesetting industry. book. </p>
+                </div>
+                <div class="section_image" data-aos="fade-left">
+                    <img src="./image/01 (1).jpg" alt="">
+                </div>
+            </div>
+            <div class="end_of_section">
+                <div class="end_all">
+                    <div class="end_letters">
+                        <h3>Premium quality free onepage template</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    </div>
+                    <div class="end_button">
+                        <button>Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <h2 class="section_header">OUR SERVI<span>CE</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="second_section_container">
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>UX Design</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-cubes"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>UI Design</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-pie-chart"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>Marketing</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-bar-chart"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>SEO Services</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-language"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>Android App</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="zoom-in-up">
+                    <div class="icon_card">
+                        <i class="fa fa-bullseye"></i>
+                    </div>
+                    <div class="card_sentences">
+                        <h3>Clean Code</h3>
+                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                            fosters greater</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statistics">
+                <div class="statistic">
+                    <div class="stat_card" data-aos="fade-right">
+                        <h4>User Experiances</h4>
+                        <div class="entire">
+                            <div class="procent nine">
+                                <p>95%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat_card" data-aos="fade-right">
+                        <h4>Web Design</h4>
+                        <div class="entire">
+                            <div class="procent eight">
+                                <p>80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat_card" data-aos="fade-right">
+                        <h4>Programming</h4>
+                        <div class="entire">
+                            <div class="procent six">
+                                <p>60%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat_card" data-aos="fade-right">
+                        <h4>Fun</h4>
+                        <div class="entire">
+                            <div class="procent seven">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistic_img" data-aos="fade-left">
+                    <img src="./image/01 (1).png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <h2 class="section_header">AWESOME FEATUR<span>ES</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="third_section_buttons">
+                <div class="third_button" data-name="web">
+                    <i class="fa fa-paper-plane"></i>
+                </div>
+                <div class="third_button" data-name="graphic">
+                    <i class="fa fa-laptop"></i>
+                </div>
+                <div class="third_button" data-name="developer">
+                    <i class="fa fa-code"></i>
+                </div>
+                <div class="third_button" data-name="responsive">
+                    <i class="fa fa-th-large"></i>
+                </div>
+                <div class="third_button" data-name="creative">
+                    <i class="fa-regular fa-file-image"></i>
+                </div>
+            </div>
+            <div class="third_button_section active" data-name="web">
+                <div class="third_sentences">
+                    <h4>Web Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give you a complete account of the
+                        system, and expound </p>
+                </div>
+                <div class="third_image">
+                    <img src="./image/01 (3).jpg" alt="">
+                </div>
+            </div>
+            <div class="third_button_section" data-name="graphic">
+                <div class="third_sentences">
+                    <h4>Graphic Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give you a complete account of the
+                        system, and expound </p>
+                </div>
+                <div class="third_image">
+                    <img src="./image/02.jpg" alt="">
+                </div>
+            </div>
+            <div class="third_button_section" data-name="developer">
+                <div class="third_sentences">
+                    <h4>Web Development</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give you a complete account of the
+                        system, and expound </p>
+                </div>
+                <div class="third_image">
+                    <img src="./image/03.jpg" alt="">
+                </div>
+            </div>
+            <div class="third_button_section" data-name="responsive">
+                <div class="third_sentences">
+                    <h4>Responsive Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give you a complete account of the
+                        system, and expound </p>
+                </div>
+                <div class="third_image">
+                    <img src="./image/04.jpg" alt="">
+                </div>
+            </div>
+            <div class="third_button_section" data-name="creative">
+                <div class="third_sentences">
+                    <h4>Creative Gallery</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <p>Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                        including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will give you a complete account of the
+                        system, and expound </p>
+                </div>
+                <div class="third_image">
+                    <img src="./image/05.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2 class="section_header">AWESOME PORTFOL<span>IO</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam
+            </p>
+            <div class="four_section_buttons">
+                <input type="text" onkeyup="inpTest(event)">
+            </div>
+            <div class="four_section_container">
+                <div class="four_section_cards">
+                    <img src="./image/photo-1.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">amusement</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+                <div class="four_section_cards">
+                    <img src="./image/photo-2.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">sea</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+                <div class="four_section_cards">
+                    <img src="./image/photo-3.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">boat</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+                <div class="four_section_cards">
+                    <img src="./image/photo-4.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">rose</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+                <div class="four_section_cards">
+                    <img src="./image/photo-5.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">city</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+                <div class="four_section_cards">
+                    <img src="./image/photo-6.jpg" alt="">
+                    <div class="four_section_card">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <p class="project_title">river</p>
+                        <p class="lorem">Lorem Input</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" style="margin-top: 100px;">
+            <h2 class="section_header">PRICE PACKAG<span>ES</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam
+            </p>
+            <div class="fifth_section_container">
+                <div class="fifth_cards" data-aos="zoom-in-up">
+                    <div class="first_stage">
+                        <h3>$39</h3>
+                        <p>per month</p>
+                    </div>
+                    <div class="second_stage">
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="third_stage">
+                        <ul class="third_stage_list">
+                            <li><span>1</span>DOMAIN</li>
+                            <li><span>100GB</span> DISK SPACE</li>
+                            <li><span>UNLIMITED </span>BANDWIDTH</li>
+                            <li>SHARED SSL CERTIFICATE</li>
+                            <li><span>10</span> EMAIL ADDRESS</li>
+                            <li><span>24/7</span> SUPPORT</li>
+                        </ul>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="fifth_cards" data-aos="zoom-in-up">
+                    <div class="first_stage">
+                        <h3>$39</h3>
+                        <p>per month</p>
+                    </div>
+                    <div class="second_stage">
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="third_stage">
+                        <ul class="third_stage_list">
+                            <li><span>1</span>DOMAIN</li>
+                            <li><span>100GB</span> DISK SPACE</li>
+                            <li><span>UNLIMITED </span>BANDWIDTH</li>
+                            <li>SHARED SSL CERTIFICATE</li>
+                            <li><span>10</span> EMAIL ADDRESS</li>
+                            <li><span>24/7</span> SUPPORT</li>
+                        </ul>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="fifth_cards" data-aos="zoom-in-up">
+                    <div class="first_stage">
+                        <h3>$39</h3>
+                        <p>per month</p>
+                    </div>
+                    <div class="second_stage">
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="third_stage">
+                        <ul class="third_stage_list">
+                            <li><span>1</span>DOMAIN</li>
+                            <li><span>100GB</span> DISK SPACE</li>
+                            <li><span>UNLIMITED </span>BANDWIDTH</li>
+                            <li>SHARED SSL CERTIFICATE</li>
+                            <li><span>10</span> EMAIL ADDRESS</li>
+                            <li><span>24/7</span> SUPPORT</li>
+                        </ul>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="fifth_cards" data-aos="zoom-in-up">
+                    <div class="first_stage">
+                        <h3>$39</h3>
+                        <p>per month</p>
+                    </div>
+                    <div class="second_stage">
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="third_stage">
+                        <ul class="third_stage_list">
+                            <li><span>1</span>DOMAIN</li>
+                            <li><span>100GB</span> DISK SPACE</li>
+                            <li><span>UNLIMITED </span>BANDWIDTH</li>
+                            <li>SHARED SSL CERTIFICATE</li>
+                            <li><span>10</span> EMAIL ADDRESS</li>
+                            <li><span>24/7</span> SUPPORT</li>
+                        </ul>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" style="margin-top: 70px;">
+            <h2 class="section_header">OUR TE<span>AM</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="six_section_container">
+                <div class="six_cards" data-aos="fade-up">
+                    <div class="six_image">
+                        <img src="./image/01 (2).jpg" alt="">
+                    </div>
+                    <div class="six_sentences">
+                        <h4>Julia Amanda</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="six_icons">
+                        <div class="first_row">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                                    fill-rule="evenodd" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="second_row">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="third_row">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p" style="margin-top: 6px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="six_cards" data-aos="fade-up" style="transition: 1300ms;">
+                    <div class="six_image">
+                        <img src="./image/01 (2).jpg" alt="">
+                    </div>
+                    <div class="six_sentences">
+                        <h4>Julia Amanda</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="six_icons">
+                        <div class="first_row">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                                    fill-rule="evenodd" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="second_row">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="third_row">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p" style="margin-top: 6px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="six_cards" data-aos="fade-up" style="transition: 1500ms;">
+                    <div class="six_image">
+                        <img src="./image/01 (2).jpg" alt="">
+                    </div>
+                    <div class="six_sentences">
+                        <h4>Julia Amanda</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="six_icons">
+                        <div class="first_row">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                                    fill-rule="evenodd" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="second_row">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="third_row">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p" style="margin-top: 6px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="six_cards" data-aos="fade-up" style="transition: 1700ms;">
+                    <div class="six_image">
+                        <img src="./image/01 (2).jpg" alt="">
+                    </div>
+                    <div class="six_sentences">
+                        <h4>Julia Amanda</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="six_icons">
+                        <div class="first_row">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                                    fill-rule="evenodd" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="second_row">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="third_row">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p" style="margin-top: 6px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seventh_section_img">
+                <div class="seventh_section_container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="seventh_icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="seventh_img">
+                                    <img src="./image/02 (1).jpg" alt="">
+                                </div>
+                                <p class="seventh_first">Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                    amet,
+                                    consectetur, adipisci velit, sed quia non numquam eius modi.</p>
+                                <h4>JOHN DOE</h4>
+                                <p class="seventh_second">Web Developer</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="seventh_icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="seventh_img">
+                                    <img src="./image/03 (2).jpg" alt="">
+                                </div>
+                                <p class="seventh_first">Nor again is there anyone who loves or pursues or desires to
+                                    obtain pain of itself, because it is pain, but because occasionally circumstances
+                                    occur</p>
+                                <h4>JOHN DOE</h4>
+                                <p class="seventh_second">Web Designer</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="seventh_icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="seventh_img">
+                                    <img src="./image/04 (1).jpg" alt="">
+                                </div>
+                                <p class="seventh_first">Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                                    nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas</p>
+                                <h4>EMA JOHNSON</h4>
+                                <p class="seventh_second">CEO</p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="seventh_number_container">
+                <div class="seventh_number_card">
+                    <h4><i class="fa-regular fa-thumbs-up"></i> <span id="timer_counter1"></span></h4>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="seventh_number_card with_before">
+                    <h4><i class="fa fa-briefcase fa-6"></i> <span id="timer_counter2"></span></h4>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="seventh_number_card with_before">
+                    <h4><i class="fa fa-coffee"></i> <span id="timer_counter3"></span></h4>
+                    <p>Cups of Coffee</p>
+                </div>
+                <div class="seventh_number_card with_before">
+                    <h4><i class="fa fa-code"></i> <span id="timer_counter4"></span></h4>
+                    <p>Lines of Code</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog" style="margin-top: 100px;">
+            <h2 class="section_header">LATEST BL<span>OG</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="prelast_container">
+                <div class="prelast_cards">
+                    <img src="./image/1 (1).jpg" alt="">
+                    <div class="prelatest_day">
+                        <h3>JAN</h3>
+                        <h5>10</h5>
+                        <p>2016</p>
+                    </div>
+                    <h4 class="sed_up">Sed ut perspiciatis unde omnis</h4>
+                    <div class="prelatest_p">
+                        <p><i class="fa fa-pencil"></i><span>John</span></p>
+                        <p><i class="fa fa-comment"></i><span>13</span></p>
+                    </div>
+                    <p class="prelatest_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate.</p>
+                    <p class="prelatest_read">Read More</p>
+                </div>
+                <div class="prelast_cards">
+                    <img src="./image/2.jpg" alt="">
+                    <div class="prelatest_day">
+                        <h3>JAN</h3>
+                        <h5>10</h5>
+                        <p>2016</p>
+                    </div>
+                    <h4 class="sed_up">Sed ut perspiciatis unde omnis</h4>
+                    <div class="prelatest_p">
+                        <p><i class="fa fa-pencil"></i><span>John</span></p>
+                        <p><i class="fa fa-comment"></i><span>13</span></p>
+                    </div>
+                    <p class="prelatest_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate.</p>
+                    <p class="prelatest_read">Read More</p>
+                </div>
+                <div class="prelast_cards">
+                    <img src="./image/3.jpg" alt="">
+                    <div class="prelatest_day">
+                        <h3>JAN</h3>
+                        <h5>10</h5>
+                        <p>2016</p>
+                    </div>
+                    <h4 class="sed_up">Sed ut perspiciatis unde omnis</h4>
+                    <div class="prelatest_p">
+                        <p><i class="fa fa-pencil"></i><span>John</span></p>
+                        <p><i class="fa fa-comment"></i><span>13</span></p>
+                    </div>
+                    <p class="prelatest_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate.</p>
+                    <p class="prelatest_read">Read More</p>
+                </div>
+            </div>
+            <div class="swiper1 mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/audi.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/delloite.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/discovery.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/envato.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/google.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/microsoft.png" alt=""></div>
+                    <div class="swiper-slide"><img style="width: 100%;" src="./image/yahoo.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!-- Sliders -->
+        <section id="contact">
+            <h2 class="section_header">CONTACT <span>US</span></h2>
+            <p class="section_header_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor
+                incididunt ut et dolore
+                magna aliqua. Ut enim ad minim veniam</p>
+            <div class="latest_section_container">
+                <div class="latest_cards">
+                    <h3>CONTACT IN<span>FO</span></h3>
+                    <p><i class="fa fa-map-marker"></i> <strong>Address:</strong> <span> No 123 , Wallstreet, India
+                        </span></p>
+                    <p><i class="fa fa-envelope"></i> <strong>Mail Us:</strong> <span>Info@yourdomain.com</span></p>
+                    <p><i class="fa fa-phone"></i> <strong>Phone:</strong> <span> +91 123-456-7890 </span></p>
+                    <p><i class="fa-solid fa-message"></i> <strong>Website:</strong> <span
+                            style="color: red;">www.Cosmix.com</span></p>
+                </div>
+                <div class="latest_cards">
+                    <div class="name_email">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <input class="subject" type="text" placeholder="Subject">
+                    <div class="big_input">
+                        <input type="text" placeholder="Enter your message">
+                    </div>
+                    <button>Send Now</button>
+                </div>
+            </div>
+            <div class="end_of_section end_all2">
+                <h3>LOOKING FORWARD TO <strong>HEARING </strong>FROM YOU!</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>Follow Us On</h3>
+            <div class="footer_icons">
+                <div class="footer_circle"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="footer_circle"><i class="fa-brands fa-twitter"></i></div>
+                <div class="footer_circle"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="footer_circle"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                            fill-rule="evenodd" clip-rule="evenodd" />
+                    </svg></div>
+                <div class="footer_circle"><i class="fa-brands fa-youtube"></i></div>
+                <div class="footer_circle"><i class="fa-brands fa-instagram"></i></div>
+                <div class="footer_circle"><i class="fa-brands fa-behance"></i></div>
+            </div>
+            <div class="end_footer">
+                <p> © Copyright 2016 Cosmix - Created By : <a href="#">Template Stock</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
